@@ -1,0 +1,121 @@
+/* Algemene stijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #11999E; /* Headerkleur */
+    padding: 20px 0; /* Ruimte boven en onder de header */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centreert de navigatie links */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; /* Kleur van de link */
+    margin: 0 15px; /* Ruimte tussen de links */
+    font-weight: bold;
+    transition: color 0.3s; /* Transitie-effect bij hover */
+}
+
+.nav-links a:hover {
+    color: #ff6b6b; /* Kleur bij hover */
+}
+
+.image-container {
+    position: relative;
+}
+
+.background-img {
+    width: 100%;
+    height: auto; /* Zorgt ervoor dat de afbeelding responsief is */
+    max-height: 300px; /* Max hoogte van de achtergrond afbeelding */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding de container vult */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Centreert de main inhoud */
+    padding: 20px;
+    background: white;
+    border-radius: 8px; /* Ronde hoeken */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+}
+
+h1, h2 {
+    color: #11999E; /* Kleur voor koppen */
+}
+
+.titel {
+    color: white;
+}
+
+.profile-img {
+    border-radius: 10%; /* Maakt de afbeelding rond */
+    display: block;
+    margin: 10px auto; /* Centreert de afbeelding */
+}
+
+section {
+    margin-bottom: 20px; /* Ruimte tussen secties */
+}
+
+footer {
+    background-color: #11999E; /* Footerkleur */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content a {
+    color: white; /* Kleur van de footer links */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-content a:hover {
+    color: #ff6b6b; /* Kleur bij hover in de footer */
+}
+
+/* Responsive stijlen */
+@media (max-width: 600px) {
+    .nav-links a {
+        margin: 0 10px; /* Kleinere marge op mobiele apparaten */
+    }
+
+    main {
+        margin: 10px; /* Verminder de marge op mobiele apparaten */
+    }
+
+    .background-img {
+        max-height: 200px; /* Verminder de hoogte van de afbeelding op mobiele apparaten */
+    }
+}
