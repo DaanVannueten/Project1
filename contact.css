@@ -1,4 +1,4 @@
-/* Algemene stijlen */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -9,34 +9,34 @@ body {
 }
 
 header {
-    background-color: #11999E; /* Headerkleur */
-    padding: 10px 0; /* Ruimte boven en onder de header */
+    background-color: #11999E; 
+    padding: 10px 0; 
 }
 
 nav {
     display: flex;
-    justify-content: center; /* Centreert de navigatie links */
+    justify-content: center; 
 }
 
 .nav-links {
-    list-style: none; /* Verwijder de opsommingstekens */
+    list-style: none; 
     padding: 0;
-    display: flex; /* Zorgt ervoor dat de links naast elkaar staan */
+    display: flex; 
 }
 
 .nav-links li {
-    margin: 0 15px; /* Ruimte tussen de links */
+    margin: 0 15px; 
 }
 
 .nav-links a {
     text-decoration: none;
-    color: white; /* Kleur van de link */
+    color: white; 
     font-weight: bold;
-    transition: color 0.3s; /* Transitie-effect bij hover */
+    transition: color 0.3s; 
 }
 
 .nav-links a:hover {
-    color: #ff6b6b; /* Kleur bij hover */
+    color: #ff6b6b;
 }
 
 .image-container {
@@ -45,9 +45,9 @@ nav {
 
 .background-img {
     width: 100%;
-    height: auto; /* Zorgt ervoor dat de afbeelding responsief is */
-    max-height: 300px; /* Max hoogte van de achtergrond afbeelding */
-    object-fit: cover; /* Zorgt ervoor dat de afbeelding de container vult */
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
 }
 
 .centered-text {
@@ -65,62 +65,62 @@ nav {
 
 main {
     max-width: 800px;
-    margin: 20px auto; /* Centreert de main inhoud */
+    margin: 20px auto; 
     padding: 20px;
     background: white;
-    border-radius: 8px; /* Ronde hoeken */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: #11999E; /* Kleur voor koppen */
+    color: #11999E; 
 }
 
 form {
-    background-color: #f9f9f9; /* Achtergrondkleur van het formulier */
+    background-color: #f9f9f9; 
     padding: 20px;
-    border-radius: 8px; /* Ronde hoeken voor formulier */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 label {
     display: block;
-    margin: 10px 0 5px; /* Ruimte boven en onder de label */
-    font-weight: bold; /* Vetgedrukte labels */
+    margin: 10px 0 5px; 
+    font-weight: bold; 
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%; /* Volledige breedte */
+    width: 100%; 
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc; /* Grijze rand */
-    border-radius: 4px; /* Ronde hoeken voor invoervelden */
-    box-sizing: border-box; /* Zorgt ervoor dat padding en margin binnen de totale breedte vallen */
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
 }
 
 textarea {
-    resize: vertical; /* Sta alleen verticaal schalen toe */
+    resize: vertical; 
 }
 
 button {
-    background-color: #11999E; /* Kleur van de knop */
+    background-color: #11999E; 
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Ruimte boven de knop */
-    font-weight: bold; /* Vetgedrukte tekst */
+    margin-top: 10px; 
+    font-weight: bold; 
 }
 
 button:hover {
-    background-color: #007B7F; /* Donkerdere kleur bij hover */
+    background-color: #007B7F; 
 }
 
 footer {
-    background-color: #11999E; /* Footerkleur */
+    background-color: #11999E; 
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -131,32 +131,32 @@ footer {
 }
 
 .footer-content a {
-    color: white; /* Kleur van de footer links */
+    color: white; 
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
 }
 
 .footer-content a:hover {
-    color: #ff6b6b; /* Kleur bij hover in de footer */
+    color: #ff6b6b; 
 }
 
 /* Responsive stijlen */
 @media (max-width: 600px) {
     .nav-links {
         display: flex;
-        flex-direction: column; /* Stapel links op mobiele apparaten */
+        flex-direction: column; 
     }
 
     .nav-links li {
-        margin: 5px 0; /* Kleinere marge op mobiele apparaten */
+        margin: 5px 0; 
     }
 
     main {
-        margin: 10px; /* Verminder de marge op mobiele apparaten */
+        margin: 10px; 
     }
 
     .background-img {
-        max-height: 200px; /* Verminder de hoogte van de afbeelding op mobiele apparaten */
+        max-height: 200px; 
     }
 }
